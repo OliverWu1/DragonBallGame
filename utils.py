@@ -10,7 +10,8 @@ class playerMovement:
         self._gokuRunImg1 = self.gokuSurf.subsurface(6, 1, 34, 67).convert_alpha()
         self._gokuRunImg2 = self.gokuSurf.subsurface(51, 1, 38, 67).convert_alpha()
         screen.blit(self._gokuRunImg1, (x,y))
+        pygame.display.update()
         screen.blit(self._gokuRunImg2, (x,y))
-        
+        pygame.display.update()
         
 
